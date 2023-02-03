@@ -16,6 +16,8 @@
 		EF9A893A295594740006D186 /* checkResultOfStudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A8939295594740006D186 /* checkResultOfStudentTests.swift */; };
 		EF9A8944295594740006D186 /* checkResultOfStudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A8943295594740006D186 /* checkResultOfStudentUITests.swift */; };
 		EF9A8946295594740006D186 /* checkResultOfStudentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A8945295594740006D186 /* checkResultOfStudentUITestsLaunchTests.swift */; };
+		EF9A8953295598600006D186 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A8952295598600006D186 /* SecondViewController.swift */; };
+		EF9A89552955A9040006D186 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9A89542955A9040006D186 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EF9A893F295594740006D186 /* checkResultOfStudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkResultOfStudentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9A8943295594740006D186 /* checkResultOfStudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkResultOfStudentUITests.swift; sourceTree = "<group>"; };
 		EF9A8945295594740006D186 /* checkResultOfStudentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkResultOfStudentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF9A8952295598600006D186 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EF9A89542955A9040006D186 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				EF9A8922295594730006D186 /* AppDelegate.swift */,
+				EF9A89542955A9040006D186 /* Student.swift */,
 				EF9A8924295594730006D186 /* SceneDelegate.swift */,
 				EF9A8926295594730006D186 /* ViewController.swift */,
+				EF9A8952295598600006D186 /* SecondViewController.swift */,
 				EF9A8928295594730006D186 /* Main.storyboard */,
 				EF9A892B295594740006D186 /* Assets.xcassets */,
 				EF9A892D295594740006D186 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF9A8953295598600006D186 /* SecondViewController.swift in Sources */,
 				EF9A8927295594730006D186 /* ViewController.swift in Sources */,
 				EF9A8923295594730006D186 /* AppDelegate.swift in Sources */,
+				EF9A89552955A9040006D186 /* Student.swift in Sources */,
 				EF9A8925295594730006D186 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
